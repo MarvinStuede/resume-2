@@ -2,8 +2,6 @@
 # Display name
 title: Dr. Marvin Stüde
 
-# Name pronunciation (optional)
-name_pronunciation: Marvin Stüde
 
 # Full name (for SEO)
 first_name: Marvin
@@ -16,7 +14,7 @@ superuser: true
 highlight_name: true
 
 # Role/position/tagline
-role: Chief Scientist
+role: System Designer
 
 # Organizations/Affiliations to display in Biography blox
 organizations:
