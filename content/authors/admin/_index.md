@@ -148,7 +148,7 @@ awards:
 - date: "2018-11-15"
   summary: "Awarded to engineers who have made an outstanding contribution to solving technical problems."
   awarder: Verein Deutscher Ingenieure
-  url: https://www.vdi.de
+  url: "/uploads/vdi_award.pdf"
   title: Technology Award of the VDI BV Hannover e.V.
   icon: vdi
 - date: "2017-02-01"
