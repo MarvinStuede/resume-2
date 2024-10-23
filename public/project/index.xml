@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Projects | Marvin Stüde</title>
+    <link>http://localhost:1313/project/</link>
+      <atom:link href="http://localhost:1313/project/index.xml" rel="self" type="application/rss+xml" />
+    <description>Projects</description>
+    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Tue, 12 Jul 2022 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>http://localhost:1313/media/icon_hu15553550530795623230.png</url>
+      <title>Projects</title>
+      <link>http://localhost:1313/project/</link>
+    </image>
+    
+    <item>
+      <title>CoPA-Map - Continuous Pedestrian Activity Map</title>
+      <link>http://localhost:1313/project/copa-map/</link>
+      <pubDate>Tue, 12 Jul 2022 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/project/copa-map/</guid>
+      <description>&lt;p&gt;CoPA-Map is a model to predict the activity of pedestrians based on detections made by mobile robots.
+Most modern mobile robots are capable of 3D people detection to receive positions of people with respect to the robot&amp;rsquo;s base frame. With known self-localization of the robot, this data can be mapped to the environment. CoPA-Map uses this spatio-temporal data to predict the activity (ie. rate of occurrences during a time interval) at different locations. These predictions can be used for task and path planning, e.g. to avoid crowds, plan human-centered tasks, or for security-related applications.&lt;/p&gt;
+&lt;p&gt;The novelty of the model lies in its continuous representation that creates a smooth model output even when the collected data is sparse for different locations, for example, because the robot moves while collecting the data.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>cmr_lidarloop</title>
+      <link>http://localhost:1313/project/cmr-lidarloop/</link>
+      <pubDate>Mon, 27 Dec 2021 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/project/cmr-lidarloop/</guid>
+      <description>&lt;p&gt;cmr_lidarloop is a ROS package that can be used to detect loops in 3D-Lidar data. It was developed as an extension to the well-known SLAM library 
+ and integrates seamlessly into RTAB-Map&amp;rsquo;s topic structure. One disadvantage of RTAB-Map is its insufficient use of 3D-Pointcloud data for loop closure detection.
+This problem is solved by cmr_lidarloop, which makes use of global feature classification and pointcloud registration and can therefore significantly enhance RTAB-Maps performance in challenging environments (e.g. when illumination changes).&lt;/p&gt;
+&lt;p&gt;It contains one module for loop-closure detection and subsequent loop verification and another module for scan registration and is avaiable on 
+.
+The library originated from the master thesis of one of my supervised students, Tim-Lukas Habich.
+More information can be found in the 
+.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Sobi</title>
+      <link>http://localhost:1313/project/sobi/</link>
+      <pubDate>Tue, 27 Apr 2021 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/project/sobi/</guid>
+      <description>&lt;p&gt;Sobi is a mobile social service robot that I develop as part of my PhD project at the Leibniz University Hannover, 
+. The robot was designed for use on the &lt;em&gt;Campus Maschinenbau&lt;/em&gt; which is the 
+ at Leibniz University. The robot&amp;rsquo;s purpose is to provide information about the campus and to guide visitors to interesting places.&lt;/p&gt;
+&lt;p&gt;Therefore Sobi was developed for long-term autonomous operation. The built-in sensors allow fully autonomous operation inside and partially autonomous operation outside buildings on campus.
+Since the project to develop Sobi started in 2018 and the robot has been designed and constructed from then on, it is continuously being further improved.&lt;/p&gt;
+&lt;p&gt;The entire project, i.e. the hardware and software design of the robot, is &lt;strong&gt;open source&lt;/strong&gt; and all components can be freely used. You can find the documentation 
+.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>KMR iiwa Champagne Waiter Demonstration</title>
+      <link>http://localhost:1313/project/sekt-kmr/</link>
+      <pubDate>Wed, 25 Apr 2018 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/project/sekt-kmr/</guid>
+      <description>&lt;p&gt;This was a demonstration I developed with the KUKA KMR iiwa. The robot picks up glasses of Champagne, which are stored on the robot&amp;rsquo;s mobile base. It then moves towards a person standing in front of the robot, which is detected with a Microsoft Kinect camera, and hands over the glass. The robot recognizes when the glass is removed via the built-in torque sensing capabilities.&lt;/p&gt;
+&lt;p&gt;We used this demonstration for several public events, because it is a great way to show the interplay between a collaborative robot with sensing capabilities, visual information from a camera and a mobile base capable of collision avoidance.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>KMR iiwa Autonomous Door Opening</title>
+      <link>http://localhost:1313/project/door-kmr/</link>
+      <pubDate>Sun, 25 Mar 2018 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/project/door-kmr/</guid>
+      <description>&lt;p&gt;For my master thesis I developed a functionality to open doors with the KUKA KMR iiwa robot. I wanted to create a method that works without any prior knowledge about the door&amp;rsquo;s shape, geometry or dynamic parameters and with different types of typical door handles.&lt;/p&gt;
+&lt;p&gt;The handles were detected with a camera (Microsoft Kinect) and object detection by a ResNet+Faster RCNN detector. I formulated the door opening problem with the Task Frame formalism. One Unique feature of my method is that it does not need to run with a fast control loop, but can be exectued on ROS with a commercial robot controller that does not allow for deep system access. The method also includes a sequential control scheme, so that it seamlessly integrates with the ROS navigation stack, automatically opening closed doors that lie on the robot&amp;rsquo;s path.&lt;/p&gt;
+&lt;p&gt;I published my approach in this 
+.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Study Project: Mobile Robot Path and Distance Control</title>
+      <link>http://localhost:1313/project/uoa-project/</link>
+      <pubDate>Thu, 27 Apr 2017 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/project/uoa-project/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Delta Robot Feedforward Dynamics Control</title>
+      <link>http://localhost:1313/project/delta-robot-hiwi/</link>
+      <pubDate>Fri, 06 Jan 2017 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/project/delta-robot-hiwi/</guid>
+      <description>&lt;p&gt;For this job I worked with a Codian Delta Robot to identify the Minimal Parameters of an Inverse Dynamics Model. This was done by generating Fourier-series based Trajectories to obtain an optimal excitation. The dynamic model was then calculated by Minimum-Least-Squares in MATLAB. I then converted the resulting model to run on an SPS Controller and created a Torque Feedforward Controller. Implementing this controller lead to a decrease in trajectory error.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Study project: Logistics Robot</title>
+      <link>http://localhost:1313/project/logistics-robot/</link>
+      <pubDate>Fri, 28 Oct 2016 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/project/logistics-robot/</guid>
+      <description>&lt;p&gt;This was a study project over the course of one semester to apply object oriented programming methods to mobile robots. We were 10 teams, each consisting of two team members, and were given tasks in the field of logistics. The main task was autonomous driving with a mobile robot in a logistics scenario considering robot localization on a map, environment recognition (color markings, obstacles) and planned job execution. The robot was pogrammed with C++ on the microcontroller Raspberry Pi.&lt;/p&gt;
+&lt;p&gt;We successfully completed the competition and even managed to achieve the first place.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>RobotChallenge</title>
+      <link>http://localhost:1313/project/robotchallenge/</link>
+      <pubDate>Thu, 27 Oct 2016 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/project/robotchallenge/</guid>
+      <description>&lt;p&gt;This was practice-oriented lecture with a competition of two 6-person teams.&lt;/p&gt;
+&lt;p&gt;The contents of the competitions were:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Navigation, path planning, and collision detection for mobile robotic systems&lt;/li&gt;
+&lt;li&gt;Object detection, tracking, and manipulation&lt;/li&gt;
+&lt;li&gt;Simulation and visualization in rviz and Gazebo&lt;/li&gt;
+&lt;li&gt;Robot Operating System (ROS)&lt;/li&gt;
+&lt;li&gt;Practical exercises with the mobile robotic system KUKA youBot&lt;/li&gt;
+&lt;li&gt;Introduction and application of common computer vision methods using the OpenCV library&lt;/li&gt;
+&lt;li&gt;Teamwork experience as developer using revision control systems and team management software&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Delta Robot Tic Tac Toe</title>
+      <link>http://localhost:1313/project/delta-robot-privat/</link>
+      <pubDate>Tue, 27 Sep 2016 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/project/delta-robot-privat/</guid>
+      <description>&lt;p&gt;I built this Delta Robot as a Side Project during learning the theory about parallel robots in university. It is a completely custom design, consisting of 3D printed, wooden and Aluminium parts. The three stepper motos of the robot are controlled by an Arduino Mega.&lt;/p&gt;
+&lt;p&gt;This project was my very first contact with ROS, so I developed a custom driver interface for my Robot and a GUI to control it. The robot has a gripper to pick up a pencil, which can then draw any type of 2D Drawing on a sheet of paper. I originally planned to also implement a camera so that you can play Tic Tac Toe against the robot, but unfortunately I never finished this project due to lack of time.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Hackathon: Mobile Robotics</title>
+      <link>http://localhost:1313/project/hackathon-mobile-robotics/</link>
+      <pubDate>Tue, 27 Sep 2016 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/project/hackathon-mobile-robotics/</guid>
+      <description>&lt;p&gt;In this hackathon I first learned about working in mobile robotics with C++, doing image processing with OpenCV as well as localisation and navigation with ROS.&lt;/p&gt;
+&lt;p&gt;We were given a task we had to solve independently in two teams in a competition within a week. To complete the task, sub-tasks from mobile robotics had to be implemented practically. The main task was to recognize colored blocks based on images, load them and deliver them to specific locations in an arena.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Hackathon: Franka Emika</title>
+      <link>http://localhost:1313/project/franka-hackathon/</link>
+      <pubDate>Fri, 26 Aug 2016 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/project/franka-hackathon/</guid>
+      <description>&lt;p&gt;During this hackathon we got the chance to be the very first students working with the Franka Emika Panda Robot (which was still a prototype back then).&lt;/p&gt;
+&lt;p&gt;We were a total of four teams, each with an individual task to teach the robot an everyday-activity within one week. For our robot we implemented the functionality to brew coffee with a coffeemaker. For this process we developed a State Machine, to open the coffee tray, grasp a spoon, fill in the coffee, fill in the water, start the brewing and serve the coffee at the end.&lt;/p&gt;
+&lt;p&gt;I was responsible for the CAD design of the End effector and all other CAD parts we needed for this process and also gave some support in State Machine Design.&lt;/p&gt;
+&lt;p&gt;During this week we did not get much sleep, but in the end it worked as planned and the task was successfully implemented.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Trajectory planning and image feedback control of an 3D inverted pendulum</title>
+      <link>http://localhost:1313/project/inverted-pendulum-thesis/</link>
+      <pubDate>Sun, 01 Nov 2015 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/project/inverted-pendulum-thesis/</guid>
+      <description>&lt;p&gt;This was by bachelor&amp;rsquo;s thesis, which I did in 2015 on an inverted 3D pendulum. I implemented several new state space control approaches (e.g. optimal control and adaptive control) and compared them with already existing approaches. Additionally I developed a method to drive arbitrary 2D trajectories with the pendulum, while keeping the pendulum in balance.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Project thesis: State Machine and Safety Monitoring for the LBR4</title>
+      <link>http://localhost:1313/project/lbr-4-project-thesis/</link>
+      <pubDate>Mon, 21 Jul 2014 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/project/lbr-4-project-thesis/</guid>
+      <description>&lt;p&gt;This was by project thesis, which I did in 2014 on an LBR 4 +. I developed a state machine with MATLAB StateFlow, representing different states for a robot-assisted laser surgery system. Based on the state, the control architecture set several safety features for the robot (moving directions, max velocities etc.)&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Student Design Challenge</title>
+      <link>http://localhost:1313/project/sdc/</link>
+      <pubDate>Tue, 27 Apr 2010 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/project/sdc/</guid>
+      <description>&lt;p&gt;This was a competition I did during school and one of the first robots I ever built. The competition consisted of building a remote controlled robot with a standardized set of components.&lt;/p&gt;
+&lt;p&gt;The robots tasks were to grasp different objects in an area and drop them off at specific places. Although we only achieved fourth place out of ten, my enthusiasm was sparked and robots fascinated me from then on.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

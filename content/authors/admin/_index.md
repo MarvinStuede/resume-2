@@ -14,7 +14,7 @@ superuser: true
 highlight_name: true
 
 # Role/position/tagline
-role: System Designer
+role: Innovation Project Lead
 
 # Organizations/Affiliations to display in Biography blox
 organizations:
@@ -25,7 +25,7 @@ organizations:
 # Need to use another icon? Simply download the SVG icon to your `assets/media/icons/` folder.
 profiles:
   - icon: at-symbol
-    url: 'mailto:stuede.misc@posteo.de'
+    url: 'mailto:stuede.mail@posteo.de'
     label: E-mail
   - icon: brands/github
     url: https://github.com/MarvinStuede
@@ -47,52 +47,124 @@ education:
     date_start: 2020-03-15
     date_end: 2024-02-15
     summary: |
-      Thesis on Environment and Task Modeling of Long-Term-Autonomous Service Robots. Presented papers at 5 IEEE conferences.
+      Thesis on _Environment and Task Modeling of Long-Term-Autonomous Service Robots_. Presented papers at 5 IEEE conferences.
     button:
       text: 'Read Thesis'
       url: 'https://www.repo.uni-hannover.de/handle/123456789/16497?locale-attribute=en'
-  - area: MSc in Mechatronics (Industrial & Service Robotics)
+  - area: MSc in Mechatronics
     institution: Leibniz University Hannover
     date_start: 2015-10-01
     date_end: 2018-03-15
-  - area: BSc Mechatronics
+    summary: |
+      Majors: _Industrial Robotics_ and _Mobile & Service Robotics_
+  - area: Study Abroad
+    institution: University of Auckland
+    location: Auckland, New Zealand
+    date_start: '2017-02-20'
+    date_end: '2017-05-30'
+    summary: |
+        Enrollment in various courses on the topics of mechatronics design, mobile robot path planning and science innovation
+  - area: BSc in Mechatronics
     institution: Leibniz University Hannover
     date_start: 2011-10-01
     date_end: 2015-09-30
 
-#work:
-#  - position: Director of Cloud Infrastructure
-#    company_name: GenCoin
-#    company_url: ''
-#    company_logo: ''
-#    date_start: 2021-01-01
-#    date_end: ''
-#    summary: |2-
-#      Responsibilities include:
-#      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-#      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-#      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-#  - position: Backend Software Engineer
-#    company_name: X
-#    company_url: ''
-#    company_logo: ''
-#    date_start: 2016-01-01
-#    date_end: 2020-12-31
-#    summary: |
-#      Responsibilities include:
-#      - Migrated infrastructure to a new data center
-#      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-#      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-
-# Skills
-# Add your own SVG icons to `assets/media/icons/`
+work:
+  - position: Innovation Project Lead
+    company_name: ZF Group
+    company_url: 'https://www.zf.com'
+    #company_logo: 'luh.svg'
+    location: Hannover, Germany
+    date_start: '2023-12-15'
+    date_end: ''
+    summary: |
+      - Leading a project for camera-based surround perception of commercial vehicles
+  - position: System Designer
+    company_name: ZF Group
+    company_url: 'https://www.zf.com'
+    #company_logo: 'luh.svg'
+    location: Hannover, Germany
+    date_start: '2023-04-01'
+    date_end: ''
+    summary: |
+      - Developed methods for lidar-based perception and autonomous coupling of semi-trailers as part of the <a href="https://www.safe20.de/index.php">SAFE20 project</a>
+  - position: Research Associate
+    company_name: Leibniz University Hannover
+    company_url: 'https://www.uni-hannover.de/en/'
+    company_logo: 'luh.svg'
+    location: Hannover, Germany
+    date_start: '2018-03-15'
+    date_end: '2023-03-14'
+    summary: |
+      - Project and team leader for the development of the social service robot Sobi[Sobi]({{< relref "/project/sobi" >}}) for long-term autonomous info-terminal and guiding services.
+      - Ph.D. thesis on environment modeling of long-term autonomous robots with a special focus on SLAM, stochastic modeling of crowds and subsequent task execution.
+      - Lead a project to simplify campus orientation through digital signage and robotic orientation systems.
+      - Teaching: <a href="https://www.imes.uni-hannover.de/en/studies/master-lectures/robotchallenge/">RobotChallenge</a> and <a href="https://www.imes.uni-hannover.de/en/studies/master-lectures/robotics-i/">Robotics I</a>.
+  - position: Undergraduate Research Assistant
+    company_name: Leibniz University Hannover
+    company_url: 'https://www.uni-hannover.de/en/'
+    company_logo: luh
+    location: Hannover, Germany
+    date_start: '2016-04-01'
+    date_end: '2017-01-31'
+    summary: |
+        - Developed computational models, path planning and torque control algorithms for parallel robots, cobots and mobile manipulators (e.g. KUKA KMR iiwa, KUKA iiwa, KUKA youBot, Franka Emika Panda, Codian Delta Robot)
+  - position: Internship
+    company_name: Bosch Rexroth
+    company_url: 'https://www.boschrexroth.com'
+    company_logo: rexroth
+    location: Xi'an, China
+    date_start: '2014-10-01'
+    date_end: '2015-03-30'
+    summary: |
+        - Introduction of the Layered Process Auditing method for plant-wide production auditing
+        - Project lead for quality enhancement of frequency converter production
+        - Revision of processes for frequency converter firmware flashing to reduce scrap quantity
+        - Introduction of a regular English course outside working hours for the staff on a voluntary basis
+#Awards
+awards:
+- awarder: Coursera
+  title: Agile Project Management
+  url: 'https://www.coursera.org/account/accomplishments/certificate/C3WN7XSJ9LFN'
+  date: '2022-07-12'
+  icon: coursera
+- awarder: Coursera
+  title: Fundamentals of Reinforcement Learning
+  url: 'https://www.coursera.org/account/accomplishments/certificate/CH6KA3BDNJVM'
+  date: '2021-09-28'
+  icon: coursera
+- awarder: "Leibniz University Hannover"
+  date: "2020-11-12"
+  summary: "Certificate program (120 hours) in professional course planning and student advising/assessment."
+  url: https://www.uni-hannover.de/en/studium/lehre/professionalisierung-und-netzwerk/weiterbildung/pro-lehre
+  title: \"Pro Lehre\" certificate
+  icon: luh
+- date: "2019-04-16"
+  summary: "For outstanding study achievements with a short duration of study."
+  awarder: Dr. Jürgen and Irmgard Ulderup Foundation
+  url: https://www.ulderupstiftung.de
+  title: Dr. Jürgen Ulderup Award
+  icon: ulderup
+- date: "2018-11-15"
+  summary: "Awarded to engineers who have made an outstanding contribution to solving technical problems."
+  awarder: Verein Deutscher Ingenieure
+  url: https://www.vdi.de
+  title: Technology Award of the VDI BV Hannover e.V.
+  icon: vdi
+- date: "2017-02-01"
+  summary: "The scholarship offers EU students one study abroad semester in New Zealand."
+  awarder: New Zealand Education
+  url: https://enz.govt.nz/news-and-research/ed-news/meet-the-dream-new-scholarship-winners/
+  title: Dream NEW Scholarship
+#Skills
+#Add your own SVG icons to `assets/media/icons/`
 # skills:
 #   - name: Technical Skills
 #     items:
 #       - name: Python
 #         description: ''
 #         percent: 80
-#         icon: code-bracket
+#         icon: luh
 #       - name: Data Science
 #         description: ''
 #         percent: 100
@@ -134,6 +206,7 @@ languages:
 
 ## About Me
 
-I am a robotics engineer working at ZF group in the area of Perception & ADAS Systems.
+I am a robotics engineer working at ZF group in Perception & ADAS Systems.
 
-For me, the fascinating thing about robotics and autonomous systems is the interplay of different complex disciplines that all have their own challenges. Therefore, it was a particularly exciting task for me to develop the autonomous service robot [Sobi](/project/sobi/) in my last project.
+What fascinates me most about robotics and autonomous systems is the interplay of different complex disciplines that all have their own challenges. Therefore, it was inspiring for me to develop the autonomous service robot [Sobi](/project/sobi/) in my PhD project.
+Currently, I lead an innovation project within ZF to enable camera-based near-field detection functions for commercial vehicles.

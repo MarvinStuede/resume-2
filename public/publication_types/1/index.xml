@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>1 | Marvin Stüde</title>
+    <link>http://localhost:1313/publication_types/1/</link>
+      <atom:link href="http://localhost:1313/publication_types/1/index.xml" rel="self" type="application/rss+xml" />
+    <description>1</description>
+    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Thu, 17 Oct 2019 17:59:00 +0000</lastBuildDate>
+    <image>
+      <url>http://localhost:1313/media/icon_hu15553550530795623230.png</url>
+      <title>1</title>
+      <link>http://localhost:1313/publication_types/1/</link>
+    </image>
+    
+    <item>
+      <title>Voice recognition and processing interface for an interactive guide robot in an university scenario</title>
+      <link>http://localhost:1313/publication/voice-recognition-and-processing-interface-for-an-interactive-guide-robot-in-an-university-scenario/</link>
+      <pubDate>Thu, 17 Oct 2019 17:59:00 +0000</pubDate>
+      <guid>http://localhost:1313/publication/voice-recognition-and-processing-interface-for-an-interactive-guide-robot-in-an-university-scenario/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

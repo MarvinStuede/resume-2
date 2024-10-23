@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Recent &amp; Upcoming Talks | Marvin Stüde</title>
+    <link>http://localhost:1313/event/</link>
+      <atom:link href="http://localhost:1313/event/index.xml" rel="self" type="application/rss+xml" />
+    <description>Recent &amp; Upcoming Talks</description>
+    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Mon, 24 Oct 2022 11:00:00 +0000</lastBuildDate>
+    <image>
+      <url>http://localhost:1313/media/icon_hu15553550530795623230.png</url>
+      <title>Recent &amp; Upcoming Talks</title>
+      <link>http://localhost:1313/event/</link>
+    </image>
+    
+    <item>
+      <title>IROS 2022 - Presentation of submitted paper</title>
+      <link>http://localhost:1313/event/iros22_copa/</link>
+      <pubDate>Mon, 24 Oct 2022 11:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/event/iros22_copa/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>ECMR 2021 - Presentation of submitted paper</title>
+      <link>http://localhost:1313/event/ecmr21_sobi/</link>
+      <pubDate>Wed, 01 Sep 2021 11:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/event/ecmr21_sobi/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>ICRA 2021 - Presentation of submitted paper</title>
+      <link>http://localhost:1313/event/icra21_bt/</link>
+      <pubDate>Tue, 01 Jun 2021 11:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/event/icra21_bt/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

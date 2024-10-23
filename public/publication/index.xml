@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Publications | Marvin Stüde</title>
+    <link>http://localhost:1313/publication/</link>
+      <atom:link href="http://localhost:1313/publication/index.xml" rel="self" type="application/rss+xml" />
+    <description>Publications</description>
+    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Tue, 12 Jul 2022 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>http://localhost:1313/media/icon_hu15553550530795623230.png</url>
+      <title>Publications</title>
+      <link>http://localhost:1313/publication/</link>
+    </image>
+    
+    <item>
+      <title>Non-Parametric Modeling of Spatio-Temporal Human Activity Based on Mobile Robot Observations</title>
+      <link>http://localhost:1313/publication/non-parametric-modeling-of-human-activity/</link>
+      <pubDate>Tue, 12 Jul 2022 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/publication/non-parametric-modeling-of-human-activity/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Sobi: An Interactive Social Service Robot for Long-Term Autonomy in Open Environments</title>
+      <link>http://localhost:1313/publication/sobi-an-autonomous-social-service-robot/</link>
+      <pubDate>Sun, 01 Aug 2021 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/publication/sobi-an-autonomous-social-service-robot/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Behavior-Tree-Based Person Search for Symbiotic Autonomous Mobile Robot Tasks</title>
+      <link>http://localhost:1313/publication/behavior-tree-based-person-search/</link>
+      <pubDate>Sat, 01 May 2021 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/publication/behavior-tree-based-person-search/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Voice recognition and processing interface for an interactive guide robot in an university scenario</title>
+      <link>http://localhost:1313/publication/voice-recognition-and-processing-interface-for-an-interactive-guide-robot-in-an-university-scenario/</link>
+      <pubDate>Thu, 17 Oct 2019 17:59:00 +0000</pubDate>
+      <guid>http://localhost:1313/publication/voice-recognition-and-processing-interface-for-an-interactive-guide-robot-in-an-university-scenario/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Door opening and traversal with an industrial cartesian impedance controlled mobile robot</title>
+      <link>http://localhost:1313/publication/door-opening-impedance-controlled-mobile-robot/</link>
+      <pubDate>Wed, 01 May 2019 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/publication/door-opening-impedance-controlled-mobile-robot/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
