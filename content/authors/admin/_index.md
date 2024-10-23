@@ -154,7 +154,7 @@ awards:
 - date: "2017-02-01"
   summary: "The scholarship offers EU students one study abroad semester in New Zealand."
   awarder: New Zealand Education
-  url: https://enz.govt.nz/news-and-research/ed-news/meet-the-dream-new-scholarship-winners/
+  url: http://web.archive.org/web/20210206234001/https://enz.govt.nz/news-and-research/ed-news/meet-the-dream-new-scholarship-winners/
   title: Dream NEW Scholarship
 #Skills
 #Add your own SVG icons to `assets/media/icons/`
