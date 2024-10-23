@@ -142,7 +142,7 @@ awards:
 - date: "2019-04-16"
   summary: "For outstanding study achievements with a short duration of study."
   awarder: Dr. Jürgen and Irmgard Ulderup Foundation
-  url: https://www.ulderupstiftung.de
+  url: https://www.neuepresse.de/lokales/hannover/hannover-preise-fuer-maschinenbau-absolventen-624NV24KBEJJTTO4EXJLDI74TE.html
   title: Dr. Jürgen Ulderup Award
   icon: ulderup
 - date: "2018-11-15"
